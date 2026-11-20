@@ -1,9 +1,9 @@
-import { Routes, Route } from 'react-router'
-import Layout from './components/Layout'
-import HomePage from './pages/HomePage'
-import ProductsPage from './pages/ProductsPage'
-import ProductDetailPage from './pages/ProductDetailPage'
-import NotFoundPage from './pages/NotFoundPage'
+import { Routes, Route } from 'react-router';
+import Layout from './components/Layout';
+import HomePage from './pages/HomePage';
+import ProductsPage from './pages/ProductsPage';
+import ProductDetailPage from './pages/ProductDetailPage';
+import NotFoundPage from './pages/NotFoundPage';
 
 function App() {
   return (
@@ -15,7 +15,7 @@ function App() {
         <Route path="*" element={<NotFoundPage />} />
       </Route>
     </Routes>
-  )
+  );
 }
 
-export default App
+export default App;
