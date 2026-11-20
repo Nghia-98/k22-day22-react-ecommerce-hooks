@@ -1,6 +1,10 @@
+import { useContext } from 'react';
 import { NavLink, Outlet } from 'react-router';
+import { CartContext } from '../context/cart-context.js';
 
 function Layout() {
+  const { totalQuantity } = useContext(CartContext);
+
   const navLinkClass = ({ isActive }) =>
     `rounded px-3 py-2 text-sm font-medium ${
       isActive ? 'bg-blue-600 text-white' : 'text-gray-700 hover:bg-gray-100'
@@ -17,6 +21,9 @@ function Layout() {
             </NavLink>
             <NavLink to="/products" className={navLinkClass}>
               Sản phẩm
+            </NavLink>
+            <NavLink to="/cart" className={navLinkClass}>
+              Giỏ hàng ({totalQuantity})
             </NavLink>
           </nav>
         </div>
