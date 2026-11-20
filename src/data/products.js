@@ -1,0 +1,68 @@
+const products = [
+  {
+    id: 1,
+    name: 'Áo thun cotton basic',
+    price: 150000,
+    image: 'https://images.pexels.com/photos/11671964/pexels-photo-11671964.jpeg?w=400&h=400&fit=crop',
+    category: 'fashion',
+    description: 'Áo thun cotton 100%, form rộng, thoáng mát, phù hợp mặc hàng ngày.',
+  },
+  {
+    id: 2,
+    name: 'Quần jeans slim fit',
+    price: 450000,
+    image: 'https://images.pexels.com/photos/39457759/pexels-photo-39457759.jpeg?w=400&h=400&fit=crop',
+    category: 'fashion',
+    description: 'Quần jeans dáng slim, chất liệu denim co giãn nhẹ, bền màu.',
+  },
+  {
+    id: 3,
+    name: 'Tai nghe bluetooth',
+    price: 590000,
+    image: 'https://images.unsplash.com/photo-1594215741864-6024bef4f3e3?w=400&h=400&fit=crop',
+    category: 'electronics',
+    description: 'Tai nghe không dây, chống ồn chủ động, pin 20 giờ sử dụng.',
+  },
+  {
+    id: 4,
+    name: 'Chuột không dây',
+    price: 250000,
+    image: 'https://images.pexels.com/photos/7172690/pexels-photo-7172690.jpeg?w=400&h=400&fit=crop',
+    category: 'electronics',
+    description: 'Chuột quang không dây, kết nối Bluetooth, thiết kế nhỏ gọn.',
+  },
+  {
+    id: 5,
+    name: 'Bàn phím cơ',
+    price: 890000,
+    image: 'https://images.pexels.com/photos/5152261/pexels-photo-5152261.jpeg?w=400&h=400&fit=crop',
+    category: 'electronics',
+    description: 'Bàn phím cơ switch đỏ, đèn LED RGB, khung nhôm chắc chắn.',
+  },
+  {
+    id: 6,
+    name: 'Bình giữ nhiệt',
+    price: 199000,
+    image: 'https://images.unsplash.com/photo-1592985666128-a89274277995?w=400&h=400&fit=crop',
+    category: 'home',
+    description: 'Bình giữ nhiệt inox 500ml, giữ nóng/lạnh 12 giờ.',
+  },
+  {
+    id: 7,
+    name: 'Đèn bàn LED',
+    price: 320000,
+    image: 'https://images.pexels.com/photos/4937990/pexels-photo-4937990.jpeg?w=400&h=400&fit=crop',
+    category: 'home',
+    description: 'Đèn bàn LED 3 chế độ sáng, chỉnh được góc chiếu, tiết kiệm điện.',
+  },
+  {
+    id: 8,
+    name: 'Áo khoác gió',
+    price: 380000,
+    image: 'https://images.pexels.com/photos/8497715/pexels-photo-8497715.jpeg?w=400&h=400&fit=crop',
+    category: 'fashion',
+    description: 'Áo khoác gió chống nước nhẹ, có túi hộp đựng gọn khi không dùng.',
+  },
+]
+
+export default products
